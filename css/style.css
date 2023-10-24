@@ -10,12 +10,12 @@ body{
     line-height: 1.5;
     color:#0F2E48;
     max-width: 87.5rem;
-    margin: auto;
-    margin: 6rem;
-    font-size: 4rem;
+    margin: 6rem auto;
+    font-size: 1.5rem;
 }
 
 header{
+    margin: auto; 
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -34,31 +34,66 @@ nav{
     justify-content: space-between;
 }
 
-h1
-nav
-{
+nav a {
     color: #668354;
     font-family: 'Cormorant Garamond', serif;
-    font-size: 6rem;
+    font-size: 3rem;
     font-style: normal;
     font-weight: 700;
 }
 
-h2
-footer{
-    color: #668354;
-    font-family: 'Cormorant Garamond', serif;
-    font-size: 5rem;
-    font-style: normal;
-    font-weight: 500;
-}
-
-#special{
+#name{
     font-size: 3rem;
     color: #0F2E48;
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+main{
+    margin: auto; 
+
+}
+
+section{
+    margin: 18rem auto;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-column-gap: 1.5rem;
+    grid-auto-flow: dense;
+}
+
+#tagline{
+    text-align: center;
+    grid-column: 2/12;
+    font-size: 3rem;
+}
+
+.artwork{
+    grid-column: 9/13;
+    text-align: center;
+}
+
+.description{
+    grid-column: 2/8;
+}
+
+.artwork-alt{
+    grid-column: 2/6;
+    text-align: center;
+}
+
+.description-alt{
+    grid-column: 7/12;
+}
+
+#bio{
+    grid-column: 6/12;
+}
+
+img{
+    max-width: 100%;
+    max-height: 850px;
 }
 
 a{
@@ -79,12 +114,23 @@ a h1:visited{
 .selected{
     color:#F1EFDB;
 }
+
+a h2:hover{
+    color:#F1EFDB;
+}
+
 footer{
     width: 17rem;
     margin: auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    font-size: 3rem;
+    color: #668354;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 5rem;
+    font-style: normal;
+    font-weight: 500;
 }
 
 input, textarea{
