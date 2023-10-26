@@ -5,7 +5,7 @@ html{
 }
 
 body{
-    background-color: #B3C7A2;
+    background-color: #bbdb99;
     font-family: 'Gaegu', sans-serif;
     line-height: 1.5;
     color:#0F2E48;
@@ -44,6 +44,10 @@ nav a {
     font-weight: 700;
 }
 
+nav h1:hover{
+    color:#F1EFDB;
+}
+
 #name{
     font-size: 3rem;
     color: #0F2E48;
@@ -58,6 +62,7 @@ main{
 }
 
 section{
+    color: #0F2E48;
     margin: 18rem auto;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
@@ -94,18 +99,34 @@ section{
 }
 
 img{
+    margin-top: 5em;
     max-width: 100%;
     max-height: 850px;
 }
+
+#link1{
+    color:#F1EFDB;
+    
+}
+
+.link1_image{
+    height: 500px;
+    width: 500px;
+    margin: auto; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;  
+}
+
+#link2{
+    color:#F1EFDB;
+}
+
 
 a{
     text-decoration: none;
     color: #668354;
     margin: 0 0 0 3rem;
-}
-
-a h1:hover{
-    color:#F1EFDB;
 }
 
 a h1:visited{
@@ -117,8 +138,68 @@ a h1:visited{
     color:#F1EFDB;
 }
 
-a h2:hover{
-    color:#F1EFDB;
+#square{
+    grid-column: 2/6;
+    text-align: center;
+    background-image: url('../img/9squares.JPG');
+    background-position: 0px 0px;
+    margin: auto;
+    margin-top:5em;
+    height: 296px;
+    width: 300px;
+}
+
+#square:hover{
+    background-image: url(../img/9squares.JPG);
+    background-position: 0px -296px;
+}
+
+#architect{
+    grid-column: 2/6;
+    text-align: center;
+    background-image: url('../img/architectural\ pattern.jpg');
+    background-position: 0px 0px;
+    margin: auto;
+    margin-top:10%;
+    height: 496px;
+    width: 300px;
+}
+
+#architect:hover{
+    background-image: url(../img/architectural\ pattern.jpg);
+    background-position: 0px -496px;
+}
+
+#interpretation{
+    grid-column: 9/13;
+    text-align: center;
+    background-image: url(../img/interpretation.jpg);
+    background-position: 0px 0px;
+    margin: auto;
+    margin-top:10%;
+    height: 424px;
+    width: 300px;
+}
+
+#interpretation:hover{
+    background-image: url(../img/interpretation.jpg);
+    background-position: 0px -424px;
+}
+
+#triptych{
+    grid-column: 2/6;
+    text-align: center;
+    background-image: url(../img/triptych.jpg);
+    background-position: 0px 0px;
+    margin: auto;
+    margin-top:10%;
+    height: 616px;
+    width: 300px;
+}
+
+#triptych:hover{
+    background-image: url(../img/triptych.jpg);
+    background-position: 0px -616px;
 }
 
 footer{
@@ -136,8 +217,8 @@ footer{
 }
 
 input, textarea{
-    background-color: #B3C7A2;
-    border: 2px solid #94bd71;
+    background-color:#F1EFDB;
+    border: 2px solid #0F2E48;
     color: #0F2E48;
     font-size: 20px;
     width: 100%;
