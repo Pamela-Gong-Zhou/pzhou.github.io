@@ -21,6 +21,7 @@ header{
     justify-content: space-between;
 }
 
+/*this is the splash page image css*/ 
 #center{
     display: block;
     margin-left: auto;
@@ -48,6 +49,7 @@ nav h1:hover{
     color:#F1EFDB;
 }
 
+/*this is my name that is under the logo*/ 
 #name{
     font-size: 3rem;
     color: #0F2E48;
@@ -106,7 +108,6 @@ img{
 
 #link1{
     color:#F1EFDB;
-    
 }
 
 .link1_image{
@@ -214,6 +215,10 @@ footer{
     font-size: 3rem;
     font-style: normal;
     font-weight: 500;
+}
+
+footer h2:hover{
+    color: #F1EFDB;
 }
 
 input, textarea{
