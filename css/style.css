@@ -21,13 +21,23 @@ header{
     justify-content: space-between;
 }
 
+#logo:hover{
+    transform: scale(1.5);
+}
+
+/*this is the splash page image css*/ 
 #center{
+    transform: scale(1);
     display: block;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
     width: 100%;
     height:1000px;
+}
+
+#center:hover{
+    transform: scale(1.5);
 }
 
 nav{
@@ -48,12 +58,22 @@ nav h1:hover{
     color:#F1EFDB;
 }
 
+<<<<<<< HEAD
+=======
+/*this is my name that is under the logo*/ 
+>>>>>>> d72c2fa60f6b25443f52919cfec79e8c8d39f158
 #name{
     font-size: 3rem;
     color: #0F2E48;
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+#name:hover{
+    grid-column: 2/5;
+    transform: scale(1.5);
+    color: #F1EFDB;
 }
 
 main{
@@ -94,6 +114,19 @@ section{
     grid-column: 7/12;
 }
 
+#profile{
+    grid-column: 2/4;
+    height: 500px;
+    width: 500px;
+    margin: auto; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    z-index: 5;
+    border-radius: 1rem;
+    background-color: #F1EFDB;
+}
+
 #bio{
     grid-column: 6/12;
 }
@@ -105,8 +138,16 @@ img{
 }
 
 #link1{
+<<<<<<< HEAD
     color:#F1EFDB;
     
+=======
+    color:#668354;
+}
+
+#link1:hover{
+    color: #F1EFDB;
+>>>>>>> d72c2fa60f6b25443f52919cfec79e8c8d39f158
 }
 
 .link1_image{
@@ -119,9 +160,18 @@ img{
 }
 
 #link2{
+<<<<<<< HEAD
     color:#F1EFDB;
 }
 
+=======
+    color:#668354;
+}
+
+#link2:hover{
+    color: #F1EFDB;
+}
+>>>>>>> d72c2fa60f6b25443f52919cfec79e8c8d39f158
 
 a{
     text-decoration: none;
@@ -147,6 +197,7 @@ a h1:visited{
     margin-top:5em;
     height: 296px;
     width: 300px;
+<<<<<<< HEAD
 }
 
 #square:hover{
@@ -200,7 +251,67 @@ a h1:visited{
 #triptych:hover{
     background-image: url(../img/triptych.jpg);
     background-position: 0px -616px;
+=======
+>>>>>>> d72c2fa60f6b25443f52919cfec79e8c8d39f158
 }
+
+#square:hover{
+    background-image: url(../img/9squares.JPG);
+    background-position: 0px -296px;
+    transform: scale(1.2);
+}
+
+#architect{
+    grid-column: 2/6;
+    text-align: center;
+    background-image: url('../img/architectural\ pattern.jpg');
+    background-position: 0px 0px;
+    margin: auto;
+    margin-top:10%;
+    height: 496px;
+    width: 300px;
+}
+
+#architect:hover{
+    background-image: url(../img/architectural\ pattern.jpg);
+    background-position: 0px -496px;
+    transform: scale(1.2);
+}
+
+#interpretation{
+    grid-column: 9/13;
+    text-align: center;
+    background-image: url(../img/interpretation.jpg);
+    background-position: 0px 0px;
+    margin: auto;
+    margin-top:10%;
+    height: 424px;
+    width: 300px;
+}
+
+#interpretation:hover{
+    background-image: url(../img/interpretation.jpg);
+    background-position: 0px -424px;
+    transform: scale(1.2);
+}
+
+#triptych{
+    grid-column: 2/6;
+    text-align: center;
+    background-image: url(../img/triptych.jpg);
+    background-position: 0px 0px;
+    margin: auto;
+    margin-top:10%;
+    height: 616px;
+    width: 300px;
+}
+
+#triptych:hover{
+    background-image: url(../img/triptych.jpg);
+    background-position: 0px -616px;
+    transform: scale(1.1);
+}
+
 
 footer{
     width: 100%; 
@@ -214,6 +325,10 @@ footer{
     font-size: 3rem;
     font-style: normal;
     font-weight: 500;
+}
+
+footer h2:hover{
+    color: #F1EFDB;
 }
 
 input, textarea{
@@ -237,7 +352,7 @@ textarea{
 button{
     background-color: #FDEEB3;
     border: none;
-    font-size: 20px;
+    font-size: 2rem;
     font-family: 'Gaegu', sans-serif;
     padding: 8px 16px 8px 16px;
 }
@@ -253,3 +368,12 @@ input:focus, textarea:focus{
     animation-duration: 10s;
     animation-iteration-count: infinite;
 }
+
+.contact{
+    grid-column: 2/12;
+    font-size: 3rem;
+    border-radius: 2rem;
+    padding-bottom: 1px;
+    background-color: #F1EFDB;
+}
+
