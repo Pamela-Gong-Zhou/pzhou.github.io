@@ -135,7 +135,11 @@ img{
 }
 
 #link1{
-    color:#F1EFDB;
+    color:#668354;
+}
+
+#link1:hover{
+    color: #F1EFDB;
 }
 
 .link1_image{
@@ -148,9 +152,12 @@ img{
 }
 
 #link2{
-    color:#F1EFDB;
+    color:#668354;
 }
 
+#link2:hover{
+    color: #F1EFDB;
+}
 
 a{
     text-decoration: none;
@@ -275,7 +282,7 @@ textarea{
 button{
     background-color: #FDEEB3;
     border: none;
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-family: 'Gaegu', sans-serif;
     padding: 8px 16px 8px 16px;
 }
