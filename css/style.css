@@ -58,10 +58,7 @@ nav h1:hover{
     color:#F1EFDB;
 }
 
-<<<<<<< HEAD
-=======
 /*this is my name that is under the logo*/ 
->>>>>>> d72c2fa60f6b25443f52919cfec79e8c8d39f158
 #name{
     font-size: 3rem;
     color: #0F2E48;
@@ -138,16 +135,11 @@ img{
 }
 
 #link1{
-<<<<<<< HEAD
-    color:#F1EFDB;
-    
-=======
     color:#668354;
 }
 
 #link1:hover{
     color: #F1EFDB;
->>>>>>> d72c2fa60f6b25443f52919cfec79e8c8d39f158
 }
 
 .link1_image{
@@ -160,18 +152,12 @@ img{
 }
 
 #link2{
-<<<<<<< HEAD
-    color:#F1EFDB;
-}
-
-=======
     color:#668354;
 }
 
 #link2:hover{
     color: #F1EFDB;
 }
->>>>>>> d72c2fa60f6b25443f52919cfec79e8c8d39f158
 
 a{
     text-decoration: none;
@@ -197,62 +183,6 @@ a h1:visited{
     margin-top:5em;
     height: 296px;
     width: 300px;
-<<<<<<< HEAD
-}
-
-#square:hover{
-    background-image: url(../img/9squares.JPG);
-    background-position: 0px -296px;
-}
-
-#architect{
-    grid-column: 2/6;
-    text-align: center;
-    background-image: url('../img/architectural\ pattern.jpg');
-    background-position: 0px 0px;
-    margin: auto;
-    margin-top:10%;
-    height: 496px;
-    width: 300px;
-}
-
-#architect:hover{
-    background-image: url(../img/architectural\ pattern.jpg);
-    background-position: 0px -496px;
-}
-
-#interpretation{
-    grid-column: 9/13;
-    text-align: center;
-    background-image: url(../img/interpretation.jpg);
-    background-position: 0px 0px;
-    margin: auto;
-    margin-top:10%;
-    height: 424px;
-    width: 300px;
-}
-
-#interpretation:hover{
-    background-image: url(../img/interpretation.jpg);
-    background-position: 0px -424px;
-}
-
-#triptych{
-    grid-column: 2/6;
-    text-align: center;
-    background-image: url(../img/triptych.jpg);
-    background-position: 0px 0px;
-    margin: auto;
-    margin-top:10%;
-    height: 616px;
-    width: 300px;
-}
-
-#triptych:hover{
-    background-image: url(../img/triptych.jpg);
-    background-position: 0px -616px;
-=======
->>>>>>> d72c2fa60f6b25443f52919cfec79e8c8d39f158
 }
 
 #square:hover{
